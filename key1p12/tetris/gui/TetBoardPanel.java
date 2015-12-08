@@ -14,14 +14,19 @@ public class TetBoardPanel extends JPanel
 
 		@Override
 		public boolean isSensitive(GameAction event) {
-			// TODO Auto-generated method stub
+			if (true)
+			{
+				performAction()
+			}
+			else
+			{	
 			return false;
+			}
 		}
 
 		@Override
 		public void performAction(Game state, GameAction event) {
-			// TODO Auto-generated method stub
-			
+			update();
 		}
 		
 	}
